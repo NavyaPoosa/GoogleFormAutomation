@@ -33,9 +33,10 @@ public class TestCases {
 
     /*
      * Navigate to the google form "https://forms.gle/wjPkzeSEk1CM7KgGA"
-     * locate teh name field using Xpath "//div[@class='rFrNMe k3kHxc RdH0ib yqQS1 zKHdkd']//div[@class='aCsJod oJeWuf']"
+     * locate the name field using Xpath "//div[@class='rFrNMe k3kHxc RdH0ib yqQS1 zKHdkd']//div[@class='aCsJod oJeWuf']"
      * locate the why automation field using Xpath "//textarea[@aria-label='Your answer']"
      * select the radio button using the Xpath "//div[@id='i13']//div[@class='rseUEf nQOrEb']"
+     * 
      
      */
 
