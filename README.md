@@ -21,15 +21,15 @@ Navigate to the Google form "https://forms.gle/wjPkzeSEk1CM7KgGA".
 10. You will see a success message on the website. Print the same message on the console upon successful completion.
 
 # to run the project
-./gradlew run  //to run the code 
-git status     //to check the status for any modification 
-git remote -v  //to check the origin 
-git remote rm origin //to remove the origin 
-git remote add origin "githuburl" //to change the origin.
-git remote -v      //to check the origin.
-git add .         //to make changes from working directory to the staging area.
-git commit -m "comment" //to record changes in the repository.
-git push -u origin main //to push the code to the remote repository
+./gradlew run                           // to run the code 
+git status                              // to check the status for any modification 
+git remote -v                           // to check the origin 
+git remote rm origin                    // to remove the origin 
+git remote add origin "githuburl"       // to change the origin.
+git remote -v                           // to check the origin.
+git add .                               // to make changes from working directory to the staging area.
+git commit -m "comment"                 // to record changes in the repository.
+git push -u origin main                 // to push the code to the remote repository
 
 
  
