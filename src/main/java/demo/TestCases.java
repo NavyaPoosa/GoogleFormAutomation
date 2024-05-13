@@ -45,8 +45,7 @@ public class TestCases {
      * "(//div[@class='uHMk6b fsHoPb'])[2]"
      * locate the checkbox for selecting the "TestNG" using Xpath
      * "(//div[@class='uHMk6b fsHoPb'])[4]"
-     * locate the drop using Xpath "//span[normalize-space()='Choose']" and click on
-     * it
+     * locate the drop using Xpath "//span[normalize-space()='Choose']" and click on it
      * locate all the webElements available in the dropdown using Xpath
      * "//div[@class='OA0qNb ncFHed QXL7Te']/div"and store it in a list.
      * traverse through each element and find the match to select the option
