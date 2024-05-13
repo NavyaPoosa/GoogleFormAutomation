@@ -92,7 +92,6 @@ public class TestCases {
 
         WebElement checkbox3 = driver.findElement(By.xpath("(//div[@class='uHMk6b fsHoPb'])[4]"));
         checkbox3.click();
-
         Thread.sleep(1000);
 
         WebElement dropDown = driver.findElement(By.xpath("//span[normalize-space()='Choose']"));
@@ -116,6 +115,7 @@ public class TestCases {
         action.sendKeys("2024").perform();
 
         LocalTime myObj = LocalTime.now();
+
         int hour = myObj.getHour();
         WebElement hourElement = driver.findElement(By.xpath("//input[@aria-label='Hour']"));
         String h = String.valueOf(hour);
@@ -139,7 +139,6 @@ public class TestCases {
         submitButton.click();
         Thread.sleep(2000);
 
-        //Thanks for your response, Automation Wizard!
         WebElement message = driver.findElement(By.xpath("//div[@class='vHW8K']"));
         if(message.getText().contains("Thanks for your response, Automation Wizard!")){
             System.out.println("Thanks for your response, Automation Wizard!");
