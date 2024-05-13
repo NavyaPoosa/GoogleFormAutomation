@@ -59,7 +59,6 @@ public class TestCases {
      * and pass the current time by creating object for LocalTime
      * In the same tab navigate to Amazon.in using driver.navigate.to("https://www.amazon.in/") and handle the alert message using Alert class
      * locate the submit button using Xpath "//span[@class='NPEfkd RveJvd snByac' and text()='Submit']" and click on it 
-     * 
      */
 
     public void testCase01() throws InterruptedException {
