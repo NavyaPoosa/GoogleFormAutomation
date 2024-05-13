@@ -145,7 +145,7 @@ public class TestCases {
             System.out.println("Thanks for your response, Automation Wizard!");
         }
             else{
-                System.out.println("Error in submitting the form");
+                System.out.println("Error in submitting the Google form");
             }
         
         System.out.println("End Test case: testCase01");
